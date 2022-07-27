@@ -1,0 +1,8 @@
+<% provide :title, t("static_pages.help.title") %>
+<h1><%= t("static_pages.help.title") %></h1>
+<p>
+  <%= t("static_pages.help.a1_head") %>
+  <%= link_to t("static_pages.help.a1_content"), Settings.urls.home.tutorial_help, target: :_blank%>
+  <%= t("static_pages.help.a2_head") %>
+  <%= link_to t("static_pages.help.a2_content_html"), Settings.urls.home.tutorial_book, target: :_blank%>
+</p>
