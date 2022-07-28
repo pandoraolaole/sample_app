@@ -1,0 +1,45 @@
+﻿vi:
+  helpers:
+    application_helper:
+      base_title: "Ứng dụng mẫu Ruby On Rails"
+
+  layouts:
+    application:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      a_content: "Hướng dẫn Ruby on Rails "
+      a_tail: "bởi"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+
+  static_pages:
+    home:
+      title: "Trang chủ"
+      button_signup: "Đăng ký ngay!"
+      tutorial: "Ruby on Rails Hướng dẫn"
+      welcome_head: "Đây là trang chủ cho"
+      welcome: "Chào mừng đến với Sample App"
+      welcome_tail: "website."
+
+    help:
+      title: "Trợ giúp"
+      a1_head: "Tìm trợ giúp từ Ruby on Rails Tutorial ở"
+      a1_content: "Rails Tutorial Help website"
+      a2_head: "Để nhận được sự trợ giúp trên ứng dụng mẫu, đọc ở"
+      a2_content_html: "sách <em>Ruby on Rails Tutorial</em>"
+
+    contact:
+      title: "Liên hệ"
+      a_head: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu ở"
+      a_content: "trang liên hệ"
+
+    about:
+      title: "Về chúng tôi"
+      a_content_html: "<em>Hướng dẫn Ruby on Rails</em>"
+      a_tail: "Đây là ứng dụng mẫu cho hướng dẫn."

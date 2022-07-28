@@ -1,0 +1,13 @@
+<% provide :title, t("static_pages.home.title")%>
+<div class="center jumbotron">
+  <h1><%= t("static_pages.home.welcome")%></h1>
+  <h2>
+    <%= t("static_pages.home.welcome_head")%>
+    <%= link_to t("static_pages.home.tutorial"), Settings.urls.home.tutorial_rails, target: :_blank%>
+    <%= t("static_pages.home.welcome_tail")%>
+  </h2>
+  <%= link_to t("static_pages.home.button_signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to Settings.urls.home.tutorial_logo, target: :_blank do %>
+  <%= image_tag("rails.svg", alt: "Rails logo", width: "200px")%>
+<% end %>

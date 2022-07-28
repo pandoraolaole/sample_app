@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("layouts.footer.a_content"), Settings.urls.footer.tutorial, target: :_blank %>
+    <%= t("layouts.footer.a_tail") %>
+    <%= link_to "Michael Hartl", Settings.urls.footer.author, target: :_blank %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("layouts.footer.about"), about_path %></li>
+      <li><%= link_to t("layouts.footer.contact"), contact_path %></li>
+      <li><%= link_to t("layouts.footer.news"), "https://news.railstutorial.org/", target: :blank %></li>
+    </ul>
+  </nav>
+</footer>
