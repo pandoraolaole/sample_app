@@ -43,3 +43,23 @@ en:
       title: "About"
       a_content_html: "<em>Ruby on Rails Tutorial</em>"
       a_tail: "This is the sample app for the tutorial."
+
+  users:
+    new:
+      title: "Sign up"
+      form:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        btn_submit: "Create my account"
+
+    show:
+      not_found_user: "User not found!"
+
+    create:
+      signup_success: "Welcome to the Sample App!"
+
+  shared:
+    error_form: "The form contains"
+    error: "error"
