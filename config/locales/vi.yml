@@ -43,3 +43,23 @@
       title: "Về chúng tôi"
       a_content_html: "<em>Hướng dẫn Ruby on Rails</em>"
       a_tail: "Đây là ứng dụng mẫu cho hướng dẫn."
+
+  users:
+    new:
+      title: "Đăng ký"
+      form:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        btn_submit: "Tạo tài khoản"
+
+    show:
+      not_found_user: "Không tìm thấy người dùng!"
+
+    create:
+      signup_success: "Chào mừng đến Sample App!"
+
+  shared:
+    error_form: "Form chứa"
+    error: "lỗi"
