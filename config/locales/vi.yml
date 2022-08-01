@@ -17,6 +17,11 @@
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
 
   static_pages:
     home:
@@ -47,6 +52,8 @@
   users:
     new:
       title: "Đăng ký"
+      already: "Đã có tài khoản?"
+      login: "Đăng nhập ngay!"
       form:
         name: "Tên"
         email: "Email"
@@ -63,3 +70,16 @@
   shared:
     error_form: "Form chứa"
     error: "lỗi"
+
+  sessions:
+    new:
+      title: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      signup: "Đăng ký ngay!"
+      form:
+        email: "Email"
+        password: "Mật khẩu"
+        btn_submit: "Đăng nhập"
+
+    create:
+      invalid: "Sai email hoặc mật khẩu"

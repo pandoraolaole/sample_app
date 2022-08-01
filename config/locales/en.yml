@@ -17,6 +17,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Logout"
 
   static_pages:
     home:
@@ -47,6 +52,8 @@ en:
   users:
     new:
       title: "Sign up"
+      already: "Already have an account?"
+      login: "Log in now!"
       form:
         name: "Name"
         email: "Email"
@@ -63,3 +70,16 @@ en:
   shared:
     error_form: "The form contains"
     error: "error"
+
+  sessions:
+    new:
+      title: "Log in"
+      new_user: "New user?"
+      signup: "Sign up now!"
+      form:
+        email: "Email"
+        password: "Password"
+        btn_submit: "Log in"
+
+    create:
+      invalid: "Invalid email/password combination"
