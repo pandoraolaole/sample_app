@@ -14,5 +14,6 @@
       <%= f.password_field :password_confirmation, class: "form-control" %>
       <%= f.submit t(".form.btn_submit"), class: "btn btn-primary" %>
     <% end %>
+    <p><%= t(".already") %><%= link_to t(".login"), login_path %></p>
   </div>
 </div>
