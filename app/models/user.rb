@@ -12,6 +12,10 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  validates :password, presence: true,
+            length: {minimum: Settings.user.password_min},
+            allow_nil: true
+
   before_save :downcase_email, :standardize_name
 
   class << self

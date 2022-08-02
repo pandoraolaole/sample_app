@@ -54,18 +54,45 @@
       title: "Đăng ký"
       already: "Đã có tài khoản?"
       login: "Đăng nhập ngay!"
-      form:
-        name: "Tên"
-        email: "Email"
-        password: "Mật khẩu"
-        password_confirmation: "Nhập lại mật khẩu"
-        btn_submit: "Tạo tài khoản"
+      btn_submit: "Tạo tài khoản"
+
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn xóa?"
+
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+
+    index:
+      title: "Tất cả người dùng"
 
     show:
-      not_found_user: "Không tìm thấy người dùng!"
+      user_not_found: "Không tìm thấy người dùng!"
 
     create:
       signup_success: "Chào mừng đến Sample App!"
+
+    edit:
+      title: "Cập nhật"
+      h1: "Cập nhật hồ sơ"
+      btn_submit: "Lưu thay đổi"
+      change: "Thay đổi"
+
+    update:
+      profile_update_sucess: "Cập nhật hồ sơ thành công"
+      profile_update_failed: "Cập nhật hồ sơ thất bại"
+
+    destroy:
+      delete_admin_error: "Bạn không thể xóa admin"
+      user_deleted_success: "Xóa người dùng thành công"
+      user_deleted_failed: "Xóa người dùng thất bại"
+
+    login_request: "Vui lòng đăng nhập trước"
+    no_permission: "Bạn không có quyền thực hiện hành động này"
+
 
   shared:
     error_form: "Form chứa"
@@ -86,3 +113,9 @@
       invalid: "Sai email hoặc mật khẩu"
 
     email_not_found: "Không tìm thấy email"
+
+  pagy:
+    nav:
+      prev: "< Trước"
+      next: "Sau >"
+      gap: "..."
