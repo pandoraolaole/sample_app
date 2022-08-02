@@ -80,6 +80,9 @@ en:
         email: "Email"
         password: "Password"
         btn_submit: "Log in"
+        remember: "Remember me"
 
     create:
       invalid: "Invalid email/password combination"
+
+    email_not_found: "Email address does not exist"
