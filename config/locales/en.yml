@@ -108,6 +108,7 @@ en:
         password: "Password"
         btn_submit: "Log in"
         remember: "Remember me"
+        forgot: "Forgot password"
 
     create:
       invalid: "Invalid email/password combination"
@@ -128,11 +129,41 @@ en:
 
     user_not_found: "User not found!"
 
+  password_resets:
+    email_not_found: "Entered mail not found"
+    invalid_link: "Invalid password reset link"
+    expired: "Password reset has expired."
+
+    new:
+      title: "Forgot password"
+      btn_submit: "Send link"
+
+    edit:
+      title: "Reset password"
+      btn_submit: "Update password"
+
+    create:
+      email_sent: "Email sent with password reset instructions"
+      send_failed: "Send email failed, check entered email and try again"
+
+    update:
+      cant_mt: "can't be empty"
+      reset: "Password has been reset"
+      try_again: "Some thing went wrong, try again"
+
   mailers:
     account_activation_sub: "Account activation"
+    password_reset_sub: "Password reset"
 
   user_mailer:
     account_activation:
       activate: "Activate"
       wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       hi: "Hi "
+
+    password_reset:
+      title: "Password reset"
+      to_reset: "To reset your password click the link below:"
+      exp: "This link will expire in"
+      hours: "hours."
+      ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."

@@ -94,7 +94,6 @@
     login_request: "Vui lòng đăng nhập trước"
     no_permission: "Bạn không có quyền thực hiện hành động này"
 
-
   shared:
     error_form: "Form chứa"
     error: "lỗi"
@@ -109,6 +108,7 @@
         password: "Mật khẩu"
         btn_submit: "Đăng nhập"
         remember: "Ghi nhớ đăng nhập"
+        forgot: "Quên mật khẩu"
 
     create:
       invalid: "Sai email hoặc mật khẩu"
@@ -129,11 +129,41 @@
 
     user_not_found: "Không tìm thấy user!"
 
+  password_resets:
+    email_not_found: "Không tìm thấy email vừa nhập"
+    invalid_link: "Link đặt lại mật khẩu không hợp lệ"
+    expired: "Yêu cầu đặt lại mật khẩu đã hết hạn"
+
+    new:
+      title: "Quên mật khẩu"
+      btn_submit: "Gửi link"
+
+    edit:
+      title: "Đặt lại mật khẩu"
+      btn_submit: "Cập nhật mật khẩu"
+
+    create:
+      email_sent: "Link đặt lại mật khẩu đã được gửi vào email của bạn"
+      send_failed: "Gửi email không thành công, kiểm tra email bạn vừa nhập và thử lại"
+
+    update:
+      cant_mt: "không thể trống"
+      reset: "Mật khẩu đã được đặt lại"
+      try_again: "Có gì đó sai sai, vui lòng thử lại"
+
   mailers:
     account_activation_sub: "Kích hoạt tài khoản"
+    password_reset_sub: "Đặt lại mật khẩu"
 
   user_mailer:
     account_activation:
       activate: "Kích hoạt"
       wellcome: "Chào mừng đến với Sample App! nhấn vào link dưới để kích hoạt tài khoản nhé!"
       hi: "Xin chào "
+
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, click vào link dưới:"
+      exp: "Link này sẽ hết hạn sau"
+      hours: "tiếng."
+      ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này, mật khẩu của bạn sẽ giữ nguyên."
