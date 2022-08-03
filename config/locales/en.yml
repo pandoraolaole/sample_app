@@ -54,18 +54,44 @@ en:
       title: "Sign up"
       already: "Already have an account?"
       login: "Log in now!"
-      form:
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        password_confirmation: "Password confirmation"
-        btn_submit: "Create my account"
+      btn_submit: "Create my account"
+
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
+
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
 
     show:
-      not_found_user: "User not found!"
+      user_not_found: "User not found!"
+
+    index:
+      title: "All users"
 
     create:
       signup_success: "Welcome to the Sample App!"
+
+    edit:
+      title: "Edit"
+      h1: "Update your profile"
+      btn_submit: "Save changes"
+      change: "Change"
+
+    update:
+      profile_update_sucess: "Update profile success"
+      profile_update_failed: "Update profile failed"
+
+    destroy:
+      delete_admin_error: "You cannot delete admin"
+      user_deleted_success: "Delete user success"
+      user_deleted_failed: "Delete user failed"
+
+    login_request: "Please log in first"
+    no_permission: "You have no permission to do this action"
 
   shared:
     error_form: "The form contains"
@@ -86,3 +112,9 @@ en:
       invalid: "Invalid email/password combination"
 
     email_not_found: "Email address does not exist"
+
+  pagy:
+    nav:
+      prev: "< Previous"
+      next: "Next >"
+      gap: "..."

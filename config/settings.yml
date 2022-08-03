@@ -20,3 +20,6 @@ user:
   email_max: 255
   password_min: 6
   gavatar_size: 80
+
+pagy:
+  items: 10
