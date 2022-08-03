@@ -74,6 +74,7 @@ en:
 
     create:
       signup_success: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
 
     edit:
       title: "Edit"
@@ -110,6 +111,7 @@ en:
 
     create:
       invalid: "Invalid email/password combination"
+      activation_warning: "Account not activated. Check your email for the activation link."
 
     email_not_found: "Email address does not exist"
 
@@ -118,3 +120,19 @@ en:
       prev: "< Previous"
       next: "Next >"
       gap: "..."
+
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+
+    user_not_found: "User not found!"
+
+  mailers:
+    account_activation_sub: "Account activation"
+
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hi "

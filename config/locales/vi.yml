@@ -74,6 +74,7 @@
 
     create:
       signup_success: "Chào mừng đến Sample App!"
+      check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản."
 
     edit:
       title: "Cập nhật"
@@ -111,6 +112,7 @@
 
     create:
       invalid: "Sai email hoặc mật khẩu"
+      activation_warning: "Tài khoản chưa kích hoạt. Vui lòng kiểm tra link kích hoạt trong email của bạn."
 
     email_not_found: "Không tìm thấy email"
 
@@ -119,3 +121,19 @@
       prev: "< Trước"
       next: "Sau >"
       gap: "..."
+
+  account_activations:
+    edit:
+      activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Đường dẫn kích hoạt không hợp lệ"
+
+    user_not_found: "Không tìm thấy user!"
+
+  mailers:
+    account_activation_sub: "Kích hoạt tài khoản"
+
+  user_mailer:
+    account_activation:
+      activate: "Kích hoạt"
+      wellcome: "Chào mừng đến với Sample App! nhấn vào link dưới để kích hoạt tài khoản nhé!"
+      hi: "Xin chào "
