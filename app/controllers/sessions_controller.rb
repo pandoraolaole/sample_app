@@ -5,9 +5,11 @@ class SessionsController < ApplicationController
 
   def create
     if @user&.authenticate params[:session][:password]
-      log_in @user
-      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
-      redirect_back_or @user
+      if @user.activated?
+        login_action @user
+      else
+        activation_warning
+      end
     else
       flash.now[:danger] = t(".invalid")
       render :new
@@ -26,6 +28,17 @@ class SessionsController < ApplicationController
     return if @user
 
     flash[:danger] = t(".email_not_found")
-    redirect_to login_path
+    redirect_to login_action_path
+  end
+
+  def login_action user
+    log_in user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_back_or user
+  end
+
+  def activation_warning
+    flash[:warning] = t ".activation_warning"
+    redirect_to root_url
   end
 end
