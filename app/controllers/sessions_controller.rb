@@ -27,8 +27,8 @@ class SessionsController < ApplicationController
     @user = User.find_by email: params[:session][:email].downcase
     return if @user
 
-    flash[:danger] = t(".email_not_found")
-    redirect_to login_action_path
+    flash.now[:danger] = t(".email_not_found")
+    render :new
   end
 
   def login_action user

@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
 
+  has_many :microposts, dependent: :destroy
+
   validates :email, presence: true,
             length: {minium: Settings.user.email_min,
                      maximum: Settings.user.email_max},
@@ -75,6 +77,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.reset_exp.hours.ago
+  end
+
+  def feed
+    microposts.newest
   end
 
   private

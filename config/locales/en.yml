@@ -31,6 +31,7 @@ en:
       welcome_head: "This is the home page for the"
       welcome: "Welcome to the Sample App"
       welcome_tail: "sample application."
+      post_feed: "Micropost Feed"
 
     help:
       title: "Help"
@@ -66,11 +67,12 @@ en:
       password: "Password"
       password_confirmation: "Password confirmation"
 
-    show:
-      user_not_found: "User not found!"
-
     index:
       title: "All users"
+
+    show:
+      user_not_found: "User not found!"
+      microposts: "Microposts"
 
     create:
       signup_success: "Welcome to the Sample App!"
@@ -97,6 +99,13 @@ en:
   shared:
     error_form: "The form contains"
     error: "error"
+
+    user_info:
+      my_profile: "view my profile"
+      micropost: "micropost"
+
+    micropost_form:
+      placeholder: "Compose new micropost..."
 
   sessions:
     new:
@@ -167,3 +176,28 @@ en:
       exp: "This link will expire in"
       hours: "hours."
       ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+
+  microposts:
+    micropost:
+      posted: "Posted "
+      ago: " ago"
+      delete: "delete"
+      confirm: "You sure?"
+      
+    create:
+      success: "Micropost created!"
+      failed: "Create Micropost failed"
+
+    destroy:
+      success: "Micropost deleted"
+      failed: "Delete micropost failed"
+      post_not_found: "This post not found to be delete"
+
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            email:
+              valid_format: "must be a valid image format"
+              file_size_limit: "should be less than 5MB"
