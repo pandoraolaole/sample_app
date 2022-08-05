@@ -93,10 +93,25 @@
       user_deleted_success: "Xóa người dùng thành công"
       user_deleted_failed: "Xóa người dùng thất bại"
 
+    following:
+      following: "Đang theo dõi"
+      followers: "Được theo dõi"
+
+    follow:
+      follow: "Theo dõi"
+
+    unfollow:
+      unfollow: "Hủy theo dõi"
+
+    follow_form:
+      microposts: "Bài viết:"
+
     login_request: "Vui lòng đăng nhập trước"
     no_permission: "Bạn không có quyền thực hiện hành động này"
 
   shared:
+    following: "Đang theo dõi"
+    followers: "Được theo dõi"
     error_form: "Form chứa"
     error: "lỗi"
 
@@ -192,6 +207,10 @@
       success: "Xóa bài viết thành công"
       failed: "Xóa bài viết thất bại"
       post_not_found: "Không thể tìm thấy bài viết này"
+
+  ralationships:
+    follow_failed: "Không thể theo dõi người dùng không tồn tại"
+    unfollow_failed: "Không thể bỏ theo dõi người dùng không tồn tại"
 
   activerecord:
     errors:

@@ -9,6 +9,7 @@ class Micropost < ApplicationRecord
             size: {less_than: Settings.post.file_size_limit,
                    message: :file_size_limit}
   scope :newest, ->{order(created_at: :desc)}
+  scope :related_posts, ->(user_ids){where user_id: user_ids}
   delegate :name, to: :user, prefix: true
 
   def display_image

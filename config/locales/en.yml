@@ -93,10 +93,25 @@ en:
       user_deleted_success: "Delete user success"
       user_deleted_failed: "Delete user failed"
 
+    following:
+      following: "Following"
+      followers: "Followers"
+
+    follow:
+      follow: "Follow"
+
+    unfollow:
+      unfollow: "Unfollow"
+
+    follow_form:
+      microposts: "Microposts:"
+
     login_request: "Please log in first"
     no_permission: "You have no permission to do this action"
 
   shared:
+    following: "Following"
+    followers: "Followers"
     error_form: "The form contains"
     error: "error"
 
@@ -183,7 +198,7 @@ en:
       ago: " ago"
       delete: "delete"
       confirm: "You sure?"
-      
+
     create:
       success: "Micropost created!"
       failed: "Create Micropost failed"
@@ -192,6 +207,10 @@ en:
       success: "Micropost deleted"
       failed: "Delete micropost failed"
       post_not_found: "This post not found to be delete"
+
+  ralationships:
+    follow_failed: "This person is not exist, can't follow"
+    unfollow_failed: "This person is not exist, can't unfollow"
 
   activerecord:
     errors:
