@@ -3,13 +3,17 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.0.2"
 
+gem "active_storage_validations", "0.8.2"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", {git: "https://github.com/faker-ruby/faker.git", branch: "master"}
 gem "figaro"
+gem "i18n-js", ">= 3.0.0.rc8"
+gem "image_processing", "1.9.3"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick", "4.9.5"
 gem "mysql2", "~> 0.5"
 gem "pagy", "~> 5.10"
 gem "puma", "~> 5.0"

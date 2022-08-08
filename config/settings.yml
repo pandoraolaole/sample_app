@@ -25,3 +25,13 @@ pagy:
   items: 10
 
 reset_exp: 2
+
+post:
+  content_max: 140
+  avt_size: 50
+  file_size_limit: <%= 5.megabytes %>
+  image:
+    content_types: [ "image/jpeg", "image/gif", "image/png" ]
+    size:
+      width: 500
+      height: 500

@@ -31,6 +31,7 @@
       welcome_head: "Đây là trang chủ cho"
       welcome: "Chào mừng đến với Sample App"
       welcome_tail: "website."
+      post_feed: "Bài đăng mới"
 
     help:
       title: "Trợ giúp"
@@ -71,6 +72,7 @@
 
     show:
       user_not_found: "Không tìm thấy người dùng!"
+      microposts: "Các bài đăng"
 
     create:
       signup_success: "Chào mừng đến Sample App!"
@@ -97,6 +99,13 @@
   shared:
     error_form: "Form chứa"
     error: "lỗi"
+
+    user_info:
+      my_profile: "xem hồ sơ của tôi"
+      micropost: "bài đăng"
+
+    micropost_form:
+      placeholder: "Soạn bài đăng..."
 
   sessions:
     new:
@@ -167,3 +176,28 @@
       exp: "Link này sẽ hết hạn sau"
       hours: "tiếng."
       ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này, mật khẩu của bạn sẽ giữ nguyên."
+
+  microposts:
+    micropost:
+      posted: "Đã đăng "
+      ago: " trước"
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn chứ?"
+
+    create:
+      success: "Đăng bài viết thành công!"
+      failed: "Đăng bài viết thất bại!"
+
+    destroy:
+      success: "Xóa bài viết thành công"
+      failed: "Xóa bài viết thất bại"
+      post_not_found: "Không thể tìm thấy bài viết này"
+
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            email:
+              valid_format: "phải đúng định dạng hình ảnh"
+              file_size_limit: "nên nhỏ hơn 5MB"
